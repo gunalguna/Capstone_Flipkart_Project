@@ -54,7 +54,7 @@ public class TestBase {
 
 	@AfterSuite
 	public void tearDown() {
-	  // driver.quit();
+	   driver.quit();
 	}
 
 	public void captureScreenshot(WebDriver driver, String tName) throws IOException {
